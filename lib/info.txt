@@ -1,0 +1,11 @@
+Now , what's the use of async process
+let's say we write
+
+step 1 : print("hello moon")
+step 2 : syncload( load image from nasa)
+step 3 : print ("hello jupiter")
+
+now when we have ewritten sync, we find that step 3 takes place after completion of step 2 only,
+while in asynch, step 3 is implemented, irrespective of completion of step 2, meanwhile step 2 is loading , step 3 can be implemented
+
+Now what is the advantage of async now ?
